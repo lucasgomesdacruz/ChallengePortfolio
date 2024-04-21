@@ -7,16 +7,23 @@
     <link rel="preconnect" href="https://fonts.googleapis.com"/>
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap" rel="stylesheet"/>
+    <link rel="shortcut icon" href="/assets/profile.png" type="image/x-icon">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Portfólio lucas gomes da cruz">
+    <meta property="og:image" content="https://challenge-portfolio-psi.vercel.app/assets/profile-pic%20(3).png">
+    <meta property="og:description" content="Portfólio pessoal - veja as minhas habilidades">
+    <meta property="og:site_name" content="Lucas Gomes">
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
     <link rel="stylesheet" href="styles/output.css">
-    <title>Document</title>
+    <title>Lucas Gomes</title>
 </head>
 <body>
     <header class="max-w-7xl flex items-center m-auto">
-        <nav class="w-full flex justify-between items-center mt-7 mb-7">
-            <h1 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent" style="background-clip: text;">LG</h1>
+        <nav class="w-full flex justify-between items-center lg:flex-row md:flex-row flex-col lg:my-7 my-5">
+            <h1 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">LG</h1>
             <ul class="flex items-center gap-5">
                 <li>
                     <a class="text-gray-800 relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#sobremim">Sobre mim</a>
@@ -32,92 +39,122 @@
         </nav>
     </header>
     <section class="max-w-7xl flex items-center m-auto">
-        <div class="w-full flex justify-center items-center lg:flex-row flex-col gap-16 h-90vh">
+        <div class="w-full flex justify-center items-center lg:flex-row flex-col lg:gap-16 gap-12 lg:min-h-[90vh] md:min-h-[90vh] min-h-[70vh]">
             <div>
-                <img class="max-w-[400px] max-h-[400px] rounded-full" src="./assets/profile-pic (3).png" alt="">
+                <img class="lg:max-w-[400px] md:max-w-[400px] max-w-[300px] object-contain rounded-full" src="./assets/profile.png" alt="Foto de perfil">
             </div>
-            <div class="flex flex-col gap-6">
-                <h2 class="font-bold text-7xl flex flex-col text-gray-800">
+            <div class="flex lg:items-start items-center flex-col lg:gap-6 gap-4 mx-2">
+                <h2 class="font-bold lg:text-7xl md:text-6xl text-4xl flex flex-col text-gray-800">
                     <span>Desenvolvedor</span>
-                    <span class="bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent" style="background-clip: text;">Front End <i class="fas fa-code"></i></span>
+                    <span class="bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">Front End <i class="fas fa-code"></i></span>
                 </h2>
-                <p class="max-w-4xl text-xl leading-8">
-                    Olá me chamo <strong>Lucas Gomes</strong>, Sou um desenvolvedor extremamente esforçado. <br> Costumo dizer que 'O trabalho duro vence o dom natural.' Por isso, estou sempre me esforçando cada vez mais para ser um profissional melhor.
+                <p class="max-w-4xl lg:text-xl md:text-xl text-base leading-8">
+                    Olá me chamo <strong>Lucas Gomes</strong>, Sou um desenvolvedor extremamente esforçado. Costumo dizer que 'O trabalho duro vence o dom natural.' Por isso, estou sempre me esforçando cada vez mais para ser um profissional melhor.
                 </p>
-                <ul class="flex items-center gap-5">
+                <ul class="flex items-center gap-5 lg:text-xl md:text-xl text-base">
                     <li>
-                        <a class=" hover:text-purple-900" href="https://github.com/lucasgomesdacruz" target="_blank" rel="no-referrer">Github <i class="fab fa-github"></i></a>
+                        <a class=" hover:text-purple-900" href="https://github.com/lucasgomesdacruz" target="_blank" rel="noopener noreferrer" aria-label="Visitar GitHub de Lucas">Github <i class="fab fa-github"></i></a>
                     </li>
                     <li>
-                        <a class=" hover:text-purple-900" href="https://www.linkedin.com/in/lucaass1997/" target="_blank" rel="no-referrer">Linkedin <i class="fab fa-linkedin-in"></i></a>
+                        <a class=" hover:text-purple-900" href="https://www.linkedin.com/in/lucaass1997/" target="_blank" rel="noopener noreferrer" aria-label="Visitar LinkedIn de Lucas">Linkedin <i class="fab fa-linkedin-in"></i></a>
                     </li>
                     <li>
-                        <a class=" hover:text-purple-900" href="https://drive.google.com/file/d/1vLqPeeh6C1vfrIajAQNlxGsFvEnj-KO8/view" target="_blank" rel="no-referrer">Currículo <i class="fas fa-file-alt"></i></a>
+                        <a class=" hover:text-purple-900" href="https://drive.google.com/file/d/1vLqPeeh6C1vfrIajAQNlxGsFvEnj-KO8/view" target="_blank" rel="noopener noreferrer" aria-label="Visualizar Currículo de Lucas">Currículo <i class="fas fa-file-alt"></i></a>
                     </li>
                 </ul>
             </div>
         </div>
-        <div class="absolute bottom-20 left-1/2 transform -translate-x-1/2 transition-transform hover:translate-y-1 animate-seta">
+        <div class="absolute lg:bottom-20 z-50 md:bottom-[-40px] lg:flex md:flex hidden left-1/2 transform -translate-x-1/2 transition-transform hover:translate-y-1 animate-seta">
             <i class="fas fa-angle-down text-4xl text-purple-900"></i>
         </div>        
     </section>
     <section class="max-w-7xl m-auto" id="sobremim">
         <div class="flex justify-center items-center gap-8 flex-col pt-10 pb-20">
-            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10" style="background-clip: text;">Sobre mim <i class="fas fa-code"></i></h2>
+            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10 bg-clip-text">Sobre mim <i class="fas fa-code"></i></h2>
             <p class="max-w-4xl text-xl leading-8">Sou apaixonado por tecnologia e um entusiasta de desenvolvimento. Tenho utilizado em meus projetos <strong> Javascript, React, TypeScript, Tailwind Css</strong> e mais, Atualmente no 5º período do curso de <strong>Análise e Desenvolvimento de Sistemas</strong>🎓, praticando e buscando novas oportunidades.</p>
         </div>
     </section>
     <section class="max-w-7xl m-auto">
         <div class="flex justify-center items-center gap-8 flex-col pt-10 pb-10">
-            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10" style="background-clip: text;">Skills <i class="fas fa-brain"></i></h2>
+            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10 bg-clip-text">Skills <i class="fas fa-brain"></i></h2>
             
             <ul class="flex justify-center items-center gap-8 flex-wrap max-w-5xl">
                 <li class="flex justify-center items-center flex-col gap-1">
-                    <img class="w-[80px] h-[80px]" src="./assets/html5-original.svg" alt="Logo do Html">
-                    <span class="font-bold">HTML5</span>
+                    <img class="w-full max-h-[80px]" src="./assets/html5-original.svg" alt="Logo do Html"
+                    title="HTML é uma linguagem de marcação usada para criar e estruturar páginas web.">
+                    <span class="font-bold select-none">
+                        HTML5
+                    </span>
                 </li>
                 <li class="flex justify-center items-center flex-col gap-1">
-                    <img class="w-[80px] h-[80px]" src="./assets/css3-original.svg" alt="Logo do Css">
-                    <span class="font-bold">CSS3</span>
+                    <img class="w-full max-h-[80px]" src="./assets/css3-original.svg" alt="Logo do Css"
+                    title="CSS é uma linguagem de estilo usada para estilizar o layout e a apresentação de páginas web">
+                    <span class="font-bold select-none">
+                        CSS3
+                    </span>
                 </li>
                 <li class="flex justify-center items-center flex-col gap-1">
-                    <img class="w-[80px] h-[80px]" src="./assets/javascript-original.svg" alt="Logo do Javascript">
-                    <span class="font-bold">Javascript</span>
+                    <img class="w-full max-h-[80px]" src="./assets/javascript-original.svg" alt="Logo do Javascript"
+                    title="JavaScript é uma linguagem para adicionar interatividade e funcionalidades a páginas web.">
+                    <span class="font-bold select-none">
+                        Javascript
+                    </span>
                 </li>
                 <li class="flex justify-center items-center flex-col gap-1">
-                    <img class="w-[80px] h-[80px]" src="./assets/react-original.svg" alt="Logo do React">
-                    <span class="font-bold">React</span>
+                    <img class="w-full max-h-[80px]" src="./assets/react-original.svg" alt="Logo do React"
+                    title="React é uma biblioteca JavaScript utilizada para construir interfaces de usuário interativas e dinâmicas para aplicações web e móveis.">
+                    <span class="font-bold select-none">
+                        React
+                    </span>
                 </li>
                 <li class="flex justify-center items-center flex-col gap-1">
-                    <img class="w-[80px] h-[80px]" src="./assets/typescript-original.svg" alt="Logo do Typescript">
-                    <span class="font-bold">Typescript</span>
+                    <img class="w-full max-h-[80px]" src="./assets/typescript-original.svg" alt="Logo do Typescript"
+                    title="TypeScript é uma linguagem de programação que adiciona tipagem estática opcional ao JavaScript, facilitando o desenvolvimento de aplicativos robustos e escaláveis.">
+                    <span class="font-bold select-none">
+                        Typescript
+                    </span>
                 </li>
                 <li class="flex justify-center items-center flex-col gap-1">
-                    <img class="w-[80px] h-[80px]" src="./assets/sass-original.svg" alt="Lodo do Sass">
-                    <span class="font-bold">Sass</span>
+                    <img class="w-full max-h-[80px]" src="./assets/sass-original.svg" alt="Lodo do Sass"
+                    title="Sass estende o CSS, simplificando a escrita e manutenção de estilos web com variáveis, aninhamento de seletores e mixins.">
+                    <span class="font-bold select-none">
+                        Sass
+                    </span>
                 </li>
                 <li class="flex justify-center items-center flex-col gap-1">
-                    <img class="w-[80px] h-[80px]" src="./assets/BootStrap-logo.svg" alt="Logo do BootStrap">
-                    <span class="font-bold">BootStrap</span>
+                    <img class="w-full max-h-[80px]" src="./assets/BootStrap-logo.svg" alt="Logo do BootStrap"
+                    title="Bootstrap é um framework front-end para criar interfaces web responsivas e atrativas.">
+                    <span class="font-bold select-none">
+                        BootStrap
+                    </span>
                 </li>
                 <li class="flex justify-center items-center flex-col gap-1">
-                    <img class="w-[80px] h-[80px]" src="./assets/tailwindcss-original.svg" alt="Logo do Tailwind css">
-                    <span class="font-bold">Tailwindcss</span>
+                    <img class="w-full max-h-[80px]" src="./assets/tailwindcss-original.svg" alt="Logo do Tailwind css"
+                    title="Tailwind CSS é uma estrutura de CSS utilitária que permite criar designs personalizados de forma rápida e eficiente, através da aplicação de classes pré-definidas.">
+                    <span class="font-bold select-none">
+                        Tailwindcss
+                    </span>
                 </li>
                 <li class="flex justify-center items-center flex-col gap-1">
-                    <img class="w-[80px] h-[80px]" src="./assets/firebase-svgrepo-com.svg" alt="Logo do Firebase">
-                    <span class="font-bold">Firebase</span>
+                    <img class="w-full max-h-[80px]" src="./assets/firebase-svgrepo-com.svg" alt="Logo do Firebase"
+                    title="Firebase é uma plataforma para desenvolvimento de aplicativos, oferecendo serviços como armazenamento em nuvem, autenticação de usuários e banco de dados em tempo real.">
+                    <span class="font-bold select-none">
+                        Firebase
+                    </span>
                 </li>
                 <li class="flex justify-center items-center flex-col gap-1">
-                    <img class="w-[80px] h-[80px]" src="./assets/git-svgrepo-com.svg" alt="Logo do Git">
-                    <span class="font-bold">Git</span>
+                    <img class="w-full max-h-[80px]" src="./assets/git-svgrepo-com.svg" alt="Logo do Git"
+                    title="Git é um sistema de controle de versão utilizado para rastrear mudanças no código durante o desenvolvimento de software.">
+                    <span class="font-bold select-none">
+                        Git
+                    </span>
                 </li>
             </ul>
         </div>
     </section>
     <section class="max-w-7xl m-auto">
         <div class="flex justify-center items-center gap-8 flex-col pt-10 pb-20">
-            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10" style="background-clip: text;">Formação Acadêmica <i class="fas fa-graduation-cap"></i></h2>
+            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10 bg-clip-text">Formação Acadêmica <i class="fas fa-graduation-cap"></i></h2>
             
             <ul class="w-full flex justify-center items-center flex-wrap gap-8">
                 <li class="w-[300px] flex justify-center items-center flex-col gap-5">
@@ -140,7 +177,7 @@
     </section>
     <section class="max-w-7xl m-auto" id="experiencia">
         <div class="w-full flex justify-center items-center gap-8 flex-col pt-10 pb-20">
-            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10" style="background-clip: text;">
+            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10 bg-clip-text">
                 Experiência <i class="fas fa-sitemap"></i></i>
             </h2>
             <div class="flex justify-center items-center gap-10 lg:flex-row flex-col">
@@ -150,18 +187,33 @@
                 <div class="flex justify-center items-start flex-col gap-3">
                     <h3 class="font-bold text-2xl uppercase">Linktree</h3>
                     <ul class="flex justify-center gap-3">
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">HTML5</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">TailwindCss</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">React</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">Typescript</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">Firebase</li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="HTML é uma linguagem de marcação usada para criar e estruturar páginas web">
+                            HTML5
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="Tailwind CSS é uma estrutura de CSS utilitária que permite criar designs personalizados de forma rápida e eficiente, através da aplicação de classes pré-definidas.">
+                            TailwindCss
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="React é uma biblioteca JavaScript utilizada para construir interfaces de usuário interativas e dinâmicas para aplicações web e móvei">
+                            React
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="TypeScript é uma linguagem de programação que adiciona tipagem estática opcional ao JavaScript, facilitando o desenvolvimento de aplicativos robustos e escaláveis.">
+                            Typescript
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="Firebase é uma plataforma para desenvolvimento de aplicativos, oferecendo serviços como armazenamento em nuvem, autenticação de usuários e banco de dados em tempo real.">
+                            Firebase
+                        </li>
                     </ul>
                     <p class="max-w-[600px]">
                         O projeto Linktree com React é uma aplicação web que permite aos usuários centralizar todos os seus links importantes em uma única página personalizada. Inspirado pelo popular serviço Linktree, esta aplicação oferece uma solução flexível e personalizável para compartilhar links para perfis sociais, portfólios, lojas online e muito mais.
                     </p>
-                    <div class="flex gap-3">
-                        <a href="https://github.com/lucasgomesdacruz/DevLinktree" target="_blank" rel="no-referrer">Repositório <i class="fab fa-github"></i></a>
-                        <a href="https://dev-liktree.vercel.app/" target="_blank" rel="no-referrer">Ver Demo</a>
+                    <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                        <a href="https://github.com/lucasgomesdacruz/DevLinktree" target="_blank" rel="noopener noreferrer" aria-label="Visitar Repositório de lucas">Repositório <i class="fab fa-github"></i></a>
+                        <a href="https://dev-liktree.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de lucas">Ver Demo</a>
                     </div>
                 </div>
             </div>
@@ -172,17 +224,29 @@
                 <div class="flex justify-center items-start flex-col gap-3">
                     <h3 class="font-bold text-2xl uppercase">PrimeFit</h3>
                     <ul class="flex justify-center gap-3">
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">HTML5</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">CSS</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">Bootstrap</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">Javascript</li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="HTML é uma linguagem de marcação usada para criar e estruturar páginas web" >
+                            HTML5
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="CSS é uma linguagem de estilo usada para estilizar o layout e a apresentação de páginas web HTML.">
+                            CSS
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="Bootstrap é um framework front-end para criar interfaces web responsivas e atrativas.">
+                            Bootstrap
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="JavaScript é uma linguagem para adicionar interatividade e funcionalidades a páginas web.">
+                            Javascript
+                        </li>
                     </ul>
                     <p class="max-w-[600px]">
                         Integrando uma API para o blog. Destaco a usabilidade aprimorada com manipulação eficiente do DOM e a modernização visual com FontAwesome. O código organizado e a otimização de imagens para WebP contribuem para um desempenho eficiente. Este projeto demonstra minha habilidade em criar websites interativos e visualmente atraentes. HTML, CSS, Bootstrap e JavaScript.
                     </p>
-                    <div class="flex gap-3">
-                        <a href="https://github.com/lucasgomesdacruz/Primefit" target="_blank" rel="no-referrer">Repositório <i class="fab fa-github"></i></a>
-                        <a href="https://lucasgomesdacruz.github.io/Primefit/" target="_blank" rel="no-referrer">Ver Demo</a>
+                    <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                        <a href="https://github.com/lucasgomesdacruz/Primefit" target="_blank" rel="noopener noreferrer" aria-label="Visitar o Repositório de lucas">Repositório <i class="fab fa-github"></i></a>
+                        <a href="https://lucasgomesdacruz.github.io/Primefit/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de lucas">Ver Demo</a>
                     </div>
                 </div>
             </div>
@@ -193,16 +257,25 @@
                 <div class="flex justify-center items-start flex-col gap-3">
                     <h3 class="font-bold text-2xl uppercase">Hamburgueria</h3>
                     <ul class="flex justify-center gap-3">
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">HTML5</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">TailwindCss</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">Javascript</li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="HTML é uma linguagem de marcação usada para criar e estruturar páginas web">
+                            HTML5
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="Tailwind CSS é uma estrutura de CSS utilitária que permite criar designs personalizados de forma rápida e eficiente, através da aplicação de classes pré-definidas.">
+                            TailwindCss
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="JavaScript é uma linguagem para adicionar interatividade e funcionalidades a páginas web.">
+                            Javascript
+                        </li>
                     </ul>
                     <p class="max-w-[600px]">
                         O Projeto Hamburgueria é uma aplicação web interativa que simula um cardápio online de uma hamburgueria, permitindo aos clientes visualizar os itens disponíveis, fazer pedidos e enviá-los diretamente para a hamburgueria via WhatsApp. Desenvolvido com HTML, Tailwind CSS e JavaScript, o projeto oferece uma experiência fluida e envolvente para os usuários.
                     </p>
-                    <div class="flex gap-3">
-                        <a href="https://github.com/lucasgomesdacruz/Hamburgueria" target="_blank" rel="no-referrer">Repositório <i class="fab fa-github"></i></a>
-                        <a href="https://hamburgueria-eta-blue.vercel.app/" target="_blank" rel="no-referrer">Ver Demo</a>
+                    <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                        <a href="https://github.com/lucasgomesdacruz/Hamburgueria" target="_blank" rel="noopener noreferrer" aria-label="Visitar o Repositório de lucas">Repositório <i class="fab fa-github"></i></a>
+                        <a href="https://hamburgueria-eta-blue.vercel.app/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de lucas">Ver Demo</a>
                     </div>
                 </div>
             </div>
@@ -213,17 +286,29 @@
                 <div class="flex justify-center items-start flex-col gap-3">
                     <h3 class="font-bold text-2xl uppercase">Cardápio online</h3>
                     <ul class="flex justify-center gap-3">
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">HTML5</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">CSS</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">TailwindCss</li>
-                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs">Javascript</li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="HTML é uma linguagem de marcação usada para criar e estruturar páginas web">
+                            HTML5
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="CSS é uma linguagem de estilo usada para estilizar o layout e a apresentação de páginas web HTML.">
+                            CSS
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="Tailwind CSS é uma estrutura de CSS utilitária que permite criar designs personalizados de forma rápida e eficiente, através da aplicação de classes pré-definidas.">
+                            TailwindCss
+                        </li>
+                        <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
+                        title="JavaScript é uma linguagem para adicionar interatividade e funcionalidades a páginas web.">
+                            Javascript
+                        </li>
                     </ul>
                     <p class="max-w-[600px]">
                         O Cardápio online é uma aplicação web interativa que simula um cardápio online de uma hamburgueria, permitindo aos clientes visualizar os itens disponíveis, integrando a API via CEP para localizar o endereço, fazer pedidos e enviá-los diretamente para a hamburgueria via WhatsApp. Desenvolvido com HTML, CSS, Bootstrap e JavaScript, o projeto oferece uma experiência fluida e envolvente para os usuários.
                     </p>
-                    <div class="flex gap-3">
-                        <a href="https://github.com/lucasgomesdacruz/cardapioOnline" target="_blank" rel="no-referrer">Repositório <i class="fab fa-github"></i></a>
-                        <a href="https://lucasgomesdacruz.github.io/cardapioOnline/" target="_blank" rel="no-referrer">Ver Demo</a>
+                    <div class="flex gap-3 text-xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
+                        <a href="https://github.com/lucasgomesdacruz/cardapioOnline" target="_blank" rel="noopener noreferrer" aria-label="Visitar o Repositório de lucas">Repositório <i class="fab fa-github"></i></a>
+                        <a href="https://lucasgomesdacruz.github.io/cardapioOnline/" target="_blank" rel="noopener noreferrer" aria-label="Visitar a demo de lucas">Ver Demo</a>
                     </div>
                 </div>
             </div>
@@ -231,36 +316,52 @@
     </section>
     <section class="max-w-7xl m-auto" id="contato">
         <div class="w-full flex justify-center items-center gap-3 flex-col pt-10 pb-10">
-            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent" style="background-clip: text;">
+            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
                 Contato <i class="far fa-paper-plane"></i>
             </h2>
             <h3 class="text-2xl">Me mande uma mensagem!</h3>
-            <p class="text-2xl">Tem uma pergunta ou proposta ou apenas quer dizer olá? Vá em frente.</p>
+            <p class="text-2xl">Tem uma pergunta ou proposta, ou apenas quer dizer "olá"? Vá em frente.</p>
         </div>
         <div class="flex justify-center items-center">
             <form class="w-full max-w-[1000px] bg-gray-100 p-2 rounded-lg">
                 <div class="grid lg:grid-cols-2 grid-cols-1 gap-4 mb-4">
                     <div>
                         <label for="nome" class="block text-gray-700 font-bold mb-2">Seu nome:</label>
-                        <input type="text" id="nome" name="nome" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" required>
+                        <input type="text" id="nome" name="nome" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none" required>
                     </div>
                     <div>
                         <label for="endereco" class="block text-gray-700 font-bold mb-2">Endereço de E-mail:</label>
-                        <input type="text" id="endereco" name="endereco" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" required>
+                        <input type="text" id="endereco" name="endereco" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none" required>
                     </div>
                 </div>
                 <div>
                     <label for="mensagem" class="block text-gray-700 font-bold mb-2">Mensagem:</label>
-                    <textarea id="mensagem" name="mensagem" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none focus:shadow-outline" required></textarea>
+                    <textarea id="mensagem" name="mensagem" rows="4" class="shadow appearance-none border rounded w-full py-2 px-3 leading-tight focus:outline-none" required></textarea>
                 </div>
                 <div class="flex justify-center mt-5">
                     <button 
-                        type="submit" class="w-[200px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline transition-all">
+                        type="submit" class="w-[200px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none transition-all">
                         Enviar
                     </button>
                 </div>
             </form>
         </div>
     </section>
+    <footer class="max-w-7xl m-auto">
+        <div class="w-full flex justify-center items-center gap-3 pt-5 pb-5 h-32">
+            <p class="font-bold text-xl text-gray-500">
+                © 2024 - Design and Code by Lucas gomes.
+            </p>
+            <a class="hover:text-purple-900 text-2xl" href="https://github.com/lucasgomesdacruz" target="_blank" rel="noopener noreferrer" aria-label="Visitar LinkedIn de Lucas">
+                <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a class="hover:text-purple-900 text-2xl" href="https://wa.me/5521992117045" target="_blank" rel="noopener noreferrer" aria-label="Enviar mensagem para WhatsApp">
+                <i class="fab fa-whatsapp"></i>
+            </a>
+            <a class="hover:text-purple-900 text-2xl" href="mailto:lucaass1997@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Enviar E-mail para Lucas" >
+                <i class="fas fa-envelope"></i>
+            </a>
+        </div>
+    </footer>
 </body>
 </html>
