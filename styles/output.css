@@ -667,10 +667,6 @@ video {
   left: 50%;
 }
 
-.bottom-\[-40px\] {
-  bottom: -40px;
-}
-
 .isolate {
   isolation: isolate;
 }
@@ -731,24 +727,19 @@ video {
   margin: auto;
 }
 
-.mx-2 {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.my-4 {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-
-.my-7 {
-  margin-top: 1.75rem;
-  margin-bottom: 1.75rem;
+.mx-3 {
+  margin-left: 0.75rem;
+  margin-right: 0.75rem;
 }
 
 .my-5 {
   margin-top: 1.25rem;
   margin-bottom: 1.25rem;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .mb-2 {
@@ -759,20 +750,12 @@ video {
   margin-bottom: 1rem;
 }
 
-.mb-7 {
-  margin-bottom: 1.75rem;
-}
-
 .mt-2 {
   margin-top: 0.5rem;
 }
 
 .mt-5 {
   margin-top: 1.25rem;
-}
-
-.mt-7 {
-  margin-top: 1.75rem;
 }
 
 .box-border {
@@ -890,10 +873,6 @@ video {
   max-height: 80px;
 }
 
-.min-h-\[90vh\] {
-  min-height: 90vh;
-}
-
 .min-h-\[70vh\] {
   min-height: 70vh;
 }
@@ -942,12 +921,20 @@ video {
   max-width: 200px;
 }
 
-.max-w-\[300px\] {
-  max-width: 300px;
+.max-w-\[270px\] {
+  max-width: 270px;
 }
 
 .max-w-\[600px\] {
   max-width: 600px;
+}
+
+.max-w-\[90\%\] {
+  max-width: 90%;
+}
+
+.max-w-\[300px\] {
+  max-width: 300px;
 }
 
 .flex-shrink {
@@ -2155,12 +2142,20 @@ video {
   padding-bottom: 1.25rem;
 }
 
+.pb-7 {
+  padding-bottom: 1.75rem;
+}
+
 .pt-10 {
   padding-top: 2.5rem;
 }
 
 .pt-5 {
   padding-top: 1.25rem;
+}
+
+.pt-7 {
+  padding-top: 1.75rem;
 }
 
 .text-left {
@@ -2249,6 +2244,11 @@ video {
   line-height: 1rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-bold {
   font-weight: 700;
 }
@@ -2321,8 +2321,8 @@ video {
   font-variant-numeric: var(--tw-ordinal) var(--tw-slashed-zero) var(--tw-numeric-figure) var(--tw-numeric-spacing) var(--tw-numeric-fraction);
 }
 
-.leading-8 {
-  line-height: 2rem;
+.leading-7 {
+  line-height: 1.75rem;
 }
 
 .leading-tight {
@@ -2927,8 +2927,9 @@ body {
 }
 
 @media (min-width: 640px) {
-  .sm\:hidden {
-    display: none;
+  .sm\:text-xs {
+    font-size: 0.75rem;
+    line-height: 1rem;
   }
 
   .sm\:underline {
@@ -2937,24 +2938,12 @@ body {
 }
 
 @media (min-width: 768px) {
-  .md\:visible {
-    visibility: visible;
-  }
-
   .md\:bottom-\[-40px\] {
     bottom: -40px;
   }
 
-  .md\:flex {
-    display: flex;
-  }
-
-  .md\:min-h-\[80vh\] {
-    min-height: 80vh;
-  }
-
-  .md\:min-h-\[90vh\] {
-    min-height: 90vh;
+  .md\:min-h-\[70vh\] {
+    min-height: 70vh;
   }
 
   .md\:max-w-\[400px\] {
@@ -2963,6 +2952,32 @@ body {
 
   .md\:flex-row {
     flex-direction: row;
+  }
+
+  .md\:gap-16 {
+    gap: 4rem;
+  }
+
+  .md\:gap-6 {
+    gap: 1.5rem;
+  }
+
+  .md\:pb-10 {
+    padding-bottom: 2.5rem;
+  }
+
+  .md\:text-start {
+    text-align: start;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .md\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .md\:text-6xl {
@@ -2974,20 +2989,15 @@ body {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
+
+  .md\:leading-9 {
+    line-height: 2.25rem;
+  }
 }
 
 @media (min-width: 1024px) {
-  .lg\:visible {
-    visibility: visible;
-  }
-
   .lg\:bottom-20 {
     bottom: 5rem;
-  }
-
-  .lg\:mx-7 {
-    margin-left: 1.75rem;
-    margin-right: 1.75rem;
   }
 
   .lg\:my-7 {
@@ -3001,6 +3011,10 @@ body {
 
   .lg\:min-h-\[90vh\] {
     min-height: 90vh;
+  }
+
+  .lg\:max-w-\[100\%\] {
+    max-width: 100%;
   }
 
   .lg\:max-w-\[400px\] {
@@ -3019,12 +3033,37 @@ body {
     align-items: flex-start;
   }
 
+  .lg\:gap-10 {
+    gap: 2.5rem;
+  }
+
   .lg\:gap-16 {
     gap: 4rem;
   }
 
   .lg\:gap-6 {
     gap: 1.5rem;
+  }
+
+  .lg\:gap-3 {
+    gap: 0.75rem;
+  }
+
+  .lg\:pb-20 {
+    padding-bottom: 5rem;
+  }
+
+  .lg\:pt-10 {
+    padding-top: 2.5rem;
+  }
+
+  .lg\:text-start {
+    text-align: start;
+  }
+
+  .lg\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
   }
 
   .lg\:text-7xl {
@@ -3035,6 +3074,10 @@ body {
   .lg\:text-xl {
     font-size: 1.25rem;
     line-height: 1.75rem;
+  }
+
+  .lg\:leading-8 {
+    line-height: 2rem;
   }
 }
 
