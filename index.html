@@ -340,6 +340,7 @@
                 </div>
                 <div class="flex justify-center mt-5">
                     <button 
+                        aria-label="Enviar E-mail para Lucas"
                         type="submit" class="w-[200px] bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none transition-all">
                         Enviar
                     </button>
@@ -348,19 +349,21 @@
         </div>
     </section>
     <footer class="max-w-7xl m-auto">
-        <div class="w-full flex justify-center items-center flex-wrap-reverse lg:gap-3 gap-5 pt-10 pb-10">
-            <p class="font-bold lg:text-xl md:text-xl text-sm text-gray-500">
+        <div class="w-full flex justify-center items-center flex-wrap-reverse gap-5 pt-10 pb-10">
+            <p class="w-full text-center font-bold lg:text-xl md:text-xl text-sm text-gray-500">
                 © 2024 - Design and Code by Lucas gomes.
             </p>
-            <a class="hover:text-purple-900 text-2xl" href="https://github.com/lucasgomesdacruz" target="_blank" rel="noopener noreferrer" aria-label="Visitar LinkedIn de Lucas">
-                <i class="fab fa-linkedin-in"></i>
-            </a>
-            <a class="hover:text-purple-900 text-2xl" href="https://wa.me/5521992117045" target="_blank" rel="noopener noreferrer" aria-label="Enviar mensagem para WhatsApp">
-                <i class="fab fa-whatsapp"></i>
-            </a>
-            <a class="hover:text-purple-900 text-2xl" href="mailto:lucaass1997@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Enviar E-mail para Lucas" >
-                <i class="fas fa-envelope"></i>
-            </a>
+            <div class="flex justify-center items-center lg:flex-row md:flex-row flex-col font-medium gap-5">
+                <a class="hover:text-purple-900 text-xl" href="https://github.com/lucasgomesdacruz" target="_blank" rel="noopener noreferrer" aria-label="Visitar LinkedIn de Lucas">
+                    Linkedin <i class="fab fa-linkedin-in"></i>
+                </a>
+                <a class="hover:text-purple-900 text-xl" href="https://wa.me/5521992117045" target="_blank" rel="noopener noreferrer" aria-label="Enviar mensagem para WhatsApp">
+                    WhatsApp <i class="fab fa-whatsapp"></i>
+                </a>
+                <a class="hover:text-purple-900 text-xl" href="mailto:lucaass1997@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Enviar E-mail para Lucas" >
+                    E-mail <i class="fas fa-envelope"></i>
+                </a>
+            </div>
         </div>
     </footer>
 </body>
