@@ -23,7 +23,7 @@ O portfólio é uma aplicação web onde me apresento como profissional e demons
 **Lucas Gomes - Front-End do projeto - [@LucasGomes](https://github.com/lucasgomesdacruz)**
 
 ### Acesso ao projeto
-Você pode acessar o projeto final clicando aqui: <a>https://challenge-portfolio-psi.vercel.app/</a>
+Você pode acessar o projeto final clicando aqui: <a>https://zaion1997.vercel.app//</a>
 
 ### 📄 Licença
 Esse projeto está sob a licença (MIT License)
