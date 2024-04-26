@@ -22,22 +22,26 @@
     <title>Portfólio - Lucas Gomes</title>
 </head>
 <body>
-    <header class="max-w-7xl flex items-center m-auto">
-        <nav class="w-full flex justify-between items-center lg:flex-row md:flex-row flex-col lg:my-7 my-5 lg:mx-3 md:mx-3 mx-0">
+    <header class="max-w-7xl m-auto"> 
+       <nav class="nav w-full flex justify-between items-center flex-row lg:my-7 my-5 px-5">
             <h1 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text lg:mb-0 md:mb-0 mb-3">LG</h1>
-            <ul class="flex items-center gap-5">
-                <li>
-                    <a class="text-gray-800 relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#sobremim">Sobre mim</a>
-                </li>
-                <li>
-                    <a class="text-gray-800 relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#experiencia">Experiência</a>
-                </li>
-                <li>
-                    <a class="text-gray-800 relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#contato">Contato</a>
-                </li>
-                
-            </ul>
-        </nav>
+            <div class="">
+                <ul class="nav-list flex items-center gap-5 text-gray-800">
+                    <li>
+                        <a class="relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#sobremim">Sobre mim</a>
+                    </li>
+                    <li>
+                        <a class="relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#experiencia">Experiência</a>
+                    </li>
+                    <li>
+                        <a class="relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#contato">Contato</a>
+                    </li>
+                </ul>
+            </div> 
+            <div class="mobile-menu lg:hidden lg:remove md:hidden md:remove flex">
+                <button class="hamburguer"></button>
+            </div>
+        </nav> 
     </header>
     <section class="max-w-7xl flex items-center m-auto">
         <div class="w-full flex justify-center items-center lg:flex-row flex-col lg:gap-16 md:gap-16 gap-10 pt-10 lg:min-h-[90vh] md:min-h-[70vh] min-h-[60vh]">
@@ -69,10 +73,10 @@
             <i class="fas fa-angle-down text-4xl text-purple-900"></i>
         </div>        
     </section>
-    <section class="max-w-7xl m-auto" id="sobremim">
+    <section class="max-w-7xl m-auto" id="sobre">
         <div class="flex justify-center items-center flex-col lg:gap-10 gap-7 lg:py-10 md:py-7 py-10 mx-3">
             <h2 class="font-bold lg:text-4xl md:text-4xl text-4xl bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">Sobre mim <i class="fas fa-code"></i></h2>
-            <p class="max-w-4xl md:text-2xl text-base lg:leading-8 md:leading-9 leading-7">Sou apaixonado por tecnologia e um entusiasta de desenvolvimento. Tenho utilizado em meus projetos <strong> Javascript, React, TypeScript, Tailwind Css</strong> e mais, Atualmente no 5º período do curso de <strong>Análise e Desenvolvimento de Sistemas</strong>🎓, praticando e buscando novas oportunidades.</p>
+            <p class="max-w-4xl lg:text-xl md:text-2xl text-base lg:leading-8 md:leading-9 leading-7">Sou apaixonado por tecnologia e um entusiasta de desenvolvimento. Tenho utilizado em meus projetos <strong> Javascript, React, TypeScript, Tailwind Css</strong> e mais, Atualmente no 5º período do curso de <strong>Análise e Desenvolvimento de Sistemas</strong>🎓, praticando e buscando novas oportunidades.</p>
         </div>
     </section>
     <section class="max-w-7xl m-auto">
@@ -171,7 +175,7 @@
                 <li class="lg:w-[300px] md:w-[300px] w-[250px] flex justify-center items-center flex-col gap-5">
                     <img class="rounded-full lg:max-w-[200px] max-w-[150px]" src="assets/Origamid.webp" alt="Logo Origamid">
                     <p class="font-bold lg:text-xl md:text-xl text-base w-full lg:h-14 md:h-12 h-10">UX/UI Design and Front-End Development </p>
-                    <p class="w-full text-center text-zinc-600">Origamid- Em andamento</p>
+                    <p class="w-full text-center text-zinc-600">Origamid - Em andamento</p>
                 </li>
             </ul>
         </div>
