@@ -873,6 +873,14 @@ video {
   min-height: 60vh;
 }
 
+.min-h-\[50vh\] {
+  min-height: 50vh;
+}
+
+.min-h-\[20vh\] {
+  min-height: 20vh;
+}
+
 .w-\[200px\] {
   width: 200px;
 }
@@ -2165,6 +2173,10 @@ video {
   padding-top: 1.75rem;
 }
 
+.pt-0 {
+  padding-top: 0px;
+}
+
 .text-left {
   text-align: left;
 }
@@ -3095,6 +3107,10 @@ body {
 
   .md\:pb-10 {
     padding-bottom: 2.5rem;
+  }
+
+  .md\:pt-10 {
+    padding-top: 2.5rem;
   }
 
   .md\:text-center {

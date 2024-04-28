@@ -17,16 +17,19 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    
     <link rel="stylesheet" href="styles/output.css">
     <script defer src="app.js"></script>
     <title>Portfólio - Lucas Gomes</title>
 </head>
 <body>
     <header class="max-w-7xl m-auto"> 
-       <nav class="nav w-full flex justify-between items-center flex-row lg:my-7 my-5 px-5">
-            <h1 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text lg:mb-0 md:mb-0 mb-3">LG</h1>
-            <div class="">
-                <ul class="nav-list flex items-center gap-5 text-gray-800">
+       <nav class="nav w-full flex justify-between items-center flex-row lg:my-7 my-5 px-5 animate__animated animate__fadeIn">
+            <h1 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text lg:mb-0 md:mb-0 mb-3" >LG</h1>
+            <div>
+                <ul class="js-menu nav-list flex items-center gap-5 text-gray-800">
                     <li>
                         <a class="relative flex items-center text-lg transition before:absolute before:text-purple-900 before:opacity-0 before:transition before:content-['{'] after:absolute after:right-0 after:text-purple-900 after:opacity-0 after:transition after:content-['}'] hover:text-target before:hover:-translate-x-4 before:hover:opacity-100 after:hover:translate-x-4 after:hover:opacity-100" href="#sobre">Sobre mim</a>
                     </li>
@@ -44,11 +47,11 @@
         </nav> 
     </header>
     <section class="max-w-7xl flex items-center m-auto">
-        <div class="w-full flex justify-center items-center lg:flex-row flex-col lg:gap-16 md:gap-16 gap-10 pt-10 lg:min-h-[90vh] md:min-h-[70vh] min-h-[60vh]">
-            <div>
+        <div class="w-full flex justify-center items-center lg:flex-row flex-col lg:gap-16 md:gap-16 gap-10 lg:pt-10 md:pt-10 pt-0 lg:min-h-[90vh] md:min-h-[70vh] min-h-[60vh]">
+            <div class="animate__animated animate__fadeInLeft">
                 <img class="lg:max-w-[400px] md:max-w-[400px] max-w-[250px] object-contain rounded-full" src="./assets/profile.png" alt="Foto de perfil">
             </div>
-            <div class="flex justify-center lg:items-start items-center flex-col lg:gap-6 md:gap-8 gap-7 mx-3">
+            <div class="flex justify-center lg:items-start items-center flex-col lg:gap-6 md:gap-8 gap-7 mx-3 animate__animated animate__fadeInRight">
                 <h2 class="font-bold lg:text-start md:text-center text-center lg:text-7xl md:text-5xl text-4xl flex flex-col text-gray-800">
                     <span>Desenvolvedor</span>
                     <span class="bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">Front End <i class="fas fa-code"></i></span>
@@ -73,7 +76,7 @@
             <i class="fas fa-angle-down text-4xl text-purple-900"></i>
         </div>        
     </section>
-    <section class="max-w-7xl m-auto" id="sobre">
+    <section class="max-w-7xl m-auto wow slideInLeft" id="sobre">
         <div class="flex justify-center items-center flex-col lg:gap-10 gap-7 lg:py-10 md:py-7 py-10 mx-3">
             <h2 class="font-bold lg:text-4xl md:text-4xl text-4xl bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">Sobre mim <i class="fas fa-code"></i></h2>
             <p class="max-w-4xl lg:text-xl md:text-2xl text-base lg:leading-8 md:leading-9 leading-7">Sou apaixonado por tecnologia e um entusiasta de desenvolvimento. Tenho utilizado em meus projetos <strong> Javascript, React, TypeScript, Tailwind Css</strong> e mais, Atualmente no 5º período do curso de <strong>Análise e Desenvolvimento de Sistemas</strong>🎓, praticando e buscando novas oportunidades.</p>
