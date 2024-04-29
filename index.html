@@ -19,6 +19,9 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
     
     <link rel="stylesheet" href="styles/output.css">
     <script defer src="app.js"></script>
@@ -27,7 +30,7 @@
 <body>
     <header class="max-w-7xl m-auto"> 
        <nav class="nav w-full flex justify-between items-center flex-row lg:my-7 my-5 px-5">
-            <h1 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text lg:mb-0 md:mb-0 mb-3" >LG</h1>
+            <h1 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text mb-0" >LG</h1>
             <div>
                 <ul class="js-menu nav-list flex items-center gap-5 text-gray-800">
                     <li>
@@ -73,17 +76,17 @@
             </div>
         </div>
         <div class="absolute z-50 lg:bottom-20 md:bottom-[-40px] lg:flex hidden left-1/2 transform -translate-x-1/2 transition-transform hover:translate-y-1 animate-seta">
-            <i class="fas fa-angle-down text-4xl text-purple-900"></i>
+            <i class="animate__animated animate__fadeIn fas fa-angle-down text-4xl text-purple-900"></i>
         </div>        
     </section>
-    <section class="max-w-7xl m-auto wow slideInLeft" id="sobre">
-        <div class="flex justify-center items-center flex-col lg:gap-10 gap-7 lg:py-10 md:py-7 py-10 mx-3">
+    <section class="max-w-7xl m-auto" id="sobre">
+        <div class="wow animate__animated animate__fadeIn flex justify-center items-center flex-col lg:gap-10 gap-7 lg:py-10 md:py-7 py-10 mx-3">
             <h2 class="font-bold lg:text-4xl md:text-4xl text-4xl bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">Sobre mim <i class="fas fa-code"></i></h2>
             <p class="max-w-4xl lg:text-xl md:text-2xl text-base lg:leading-8 md:leading-9 leading-7">Sou apaixonado por tecnologia e um entusiasta de desenvolvimento. Tenho utilizado em meus projetos <strong> Javascript, React, TypeScript, Tailwind Css</strong> e mais, Atualmente no 5º período do curso de <strong>Análise e Desenvolvimento de Sistemas</strong>🎓, praticando e buscando novas oportunidades.</p>
         </div>
     </section>
     <section class="max-w-7xl m-auto">
-        <div class="flex justify-center items-center lg:gap-10 gap-4 flex-col lg:py-10 md:py-10 py-5 mx-3">
+        <div class="wow animate__animated animate__fadeIn flex justify-center items-center lg:gap-10 gap-4 flex-col lg:py-10 md:py-10 py-5 mx-3">
             <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10 bg-clip-text">Skills <i class="fas fa-brain"></i></h2>
             
             <ul class="max-w-5xl w-full flex-wrap flex justify-center items-center lg:gap-8 md:gap-6 gap-5">
@@ -165,17 +168,17 @@
             <h2 class="font-bold text-center lg:text-4xl md:text-4xl text-4xl bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent pb-10 bg-clip-text">Formação Acadêmica <i class="fas fa-graduation-cap"></i></h2>
             
             <ul class="w-full text-center flex justify-center items-center flex-wrap lg:gap-8 gap-10">
-                <li class="lg:w-[300px] md:w-[300px] w-[250px] flex justify-center items-center flex-col gap-5">
+                <li class="wow animate__animated animate__fadeIn lg:w-[300px] md:w-[300px] w-[250px] flex justify-center items-center flex-col gap-5">
                     <img class="rounded-full lg:max-w-[200px] max-w-[150px]" src="assets/OneBitCode.webp" alt="Logo Onebitcode">
                     <p class="font-bold lg:text-xl md:text-xl text-base w-full lg:h-14 md:h-12 h-10">Programador full stack javascript</p>
                     <p class="w-full text-center text-zinc-600">Onebitcode - Em andamento</p>
                 </li>
-                <li class="lg:w-[300px] md:w-[300px] w-[250px] flex justify-center items-center flex-col gap-5">
+                <li class="wow animate__animated animate__fadeIn lg:w-[300px] md:w-[300px] w-[250px] flex justify-center items-center flex-col gap-5">
                     <img class="rounded-full lg:max-w-[200px] max-w-[150px]" src="assets/descomplica.webp" alt="Logo descomplica">
                     <p class="font-bold lg:text-xl md:text-xl text-base w-full lg:h-14 md:h-12 h-10">Análise e desenvolvimento de sistemas</p>
                     <p class="w-full text-center text-zinc-600">Descomplica - Em andamento</p>
                 </li>
-                <li class="lg:w-[300px] md:w-[300px] w-[250px] flex justify-center items-center flex-col gap-5">
+                <li class="wow animate__animated animate__fadeIn lg:w-[300px] md:w-[300px] w-[250px] flex justify-center items-center flex-col gap-5">
                     <img class="rounded-full lg:max-w-[200px] max-w-[150px]" src="assets/Origamid.webp" alt="Logo Origamid">
                     <p class="font-bold lg:text-xl md:text-xl text-base w-full lg:h-14 md:h-12 h-10">UX/UI Design and Front-End Development </p>
                     <p class="w-full text-center text-zinc-600">Origamid - Em andamento</p>
@@ -185,14 +188,14 @@
     </section>
     <section class="max-w-7xl m-auto" id="experiencia">
         <div class="w-full flex justify-center items-center lg:gap-15 gap-10 flex-col lg:py-10 py-5">
-            <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text lg:pb-5 pb-2">
+            <h2 class="wow animate__animated animate__fadeInLeft text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text lg:pb-5 pb-2">
                 Experiência <i class="fas fa-sitemap"></i></i>
             </h2>
             <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
-                <div class="max-w-[600px]">
+                <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
                     <img class="w-full rounded-lg" src="assets/imgProjects/linkDev.png" alt="">
                 </div>
-                <div class="flex justify-center items-start flex-col gap-3">
+                <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
                     <h3 class="font-bold text-2xl uppercase">Linktree</h3>
                     <ul class="flex justify-start flex-wrap gap-3">
                         <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
@@ -226,10 +229,10 @@
                 </div>
             </div>
             <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
-                <div class="max-w-[600px]">
+                <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
                     <img class="w-full rounded-lg" src="assets/imgProjects/PrimeFit.png" alt="">
                 </div>
-                <div class="flex justify-center items-start flex-col gap-3">
+                <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
                     <h3 class="font-bold text-2xl uppercase">PrimeFit</h3>
                     <ul class="flex justify-center flex-wrap gap-3">
                         <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
@@ -259,10 +262,10 @@
                 </div>
             </div>
             <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
-                <div class="max-w-[600px]">
+                <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
                     <img class="w-full rounded-lg" src="assets/imgProjects/hamburgueria.png" alt="">
                 </div>
-                <div class="flex justify-center items-start flex-col gap-3">
+                <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-col gap-3">
                     <h3 class="font-bold text-2xl uppercase">Hamburgueria</h3>
                     <ul class="flex justify-center flex-wrap gap-3">
                         <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
@@ -288,10 +291,10 @@
                 </div>
             </div>
             <div class="lg:max-w-[100%] max-w-[90%] flex justify-center items-center gap-10 lg:flex-row flex-col">
-                <div class="max-w-[600px]">
+                <div class="wow animate__animated animate__fadeInLeft max-w-[600px]">
                     <img class="w-full rounded-lg" src="assets/imgProjects/cardapio.png" alt="">
                 </div>
-                <div class="flex justify-center items-start flex-wrap flex-col gap-3">
+                <div class="wow animate__animated animate__fadeInRight flex justify-center items-start flex-wrap flex-col gap-3">
                     <h3 class="font-bold text-2xl uppercase">Cardápio online</h3>
                     <ul class="flex justify-center gap-3">
                         <li class="bg-zinc-600/30 py-1 px-2 rounded-md text-xs select-none" 
@@ -322,7 +325,7 @@
             </div>
         </div>
     </section>
-    <section class="max-w-7xl m-auto" id="contato">
+    <section class="wow animate__animated animate__fadeIn animate__slower max-w-7xl m-auto" id="contato">
         <div class="max-w-[90%] lg:text-start md:text-start text-center flex justify-center items-center gap-3 flex-col lg:pt-10 pt-7 lg:pb-20 md:pb-10 pb-7 mx-auto">
             <h2 class="text-4xl font-bold bg-gradient-to-b from-indigo-600 to-purple-900 text-transparent bg-clip-text">
                 Contato <i class="far fa-paper-plane"></i>
@@ -356,7 +359,7 @@
             </form>
         </div>
     </section>
-    <footer class="max-w-7xl m-auto">
+    <footer class="wow animate__animated animate__fadeIn  max-w-7xl m-auto">
         <div class="w-full flex justify-center items-center flex-wrap-reverse gap-5 pt-10 pb-10">
             <p class="w-full text-center font-bold lg:text-xl md:text-xl text-sm text-gray-500">
                 © 2024 - Design and Code by Lucas gomes.

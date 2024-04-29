@@ -77,9 +77,8 @@ function scrollSuave() {
 }
 scrollSuave()
 
-document.addEventListener("DOMContentLoaded", function() {
-    new WOW().init();
-});
+
+
 
 
 

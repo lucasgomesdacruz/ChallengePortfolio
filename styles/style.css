@@ -86,10 +86,9 @@ body {
 
     .nav.active .hamburguer{
         position: fixed;
-        top: 26px;
+        top: 35px;
         right: 16px;
         border-top-color: transparent;
-      
     }
 
     .nav.active .hamburguer::before {
