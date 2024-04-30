@@ -5,9 +5,13 @@
 ## 🔥 Introdução
 O portfólio é uma aplicação web onde me apresento como profissional e demonstro minhas habilidade. Desenvolvido com HTML, Tailwind Css e JavaScript.
 
-## 🚀 Funcionalidades:
-• Envio de Email, utilizando o metodo post juntamente com formspree. <br>
-• Visulização dos projetos em destaques. <br>
+## 🚀 Funcionalidades e mais:
+• Envio de Email, utilizando o metodo post juntamente com formspree.<br>
+• Scroll Suave para ir a cada seção do site<br>
+• Menu hamburguer para melhor experiência do usuário<br>
+• Visulização dos projetos em destaques.<br>
+• Biblioteca Animate.Css e wow.js para animações fluidas<br>
+• Biblioteca font awesome para ícones<br>
 
 ### 🛠️ Tecnologias usadas:
 ![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white) ![tailwind css](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  
