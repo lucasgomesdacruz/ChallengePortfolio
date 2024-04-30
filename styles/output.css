@@ -2775,6 +2775,10 @@ body {
   overflow-x: hidden;
 }
 
+.invalido {
+  border: 3px solid red;
+}
+
 .hamburguer {
   display: block;
   border: none;
