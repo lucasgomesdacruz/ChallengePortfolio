@@ -1,13 +1,13 @@
 {
-  "name": "challenge",
+  "name": "portfolio",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "main.js",
   "scripts": {
     "dev": "npx tailwindcss -i ./styles/style.css -o ./styles/output.css --watch"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Lucas Gomes",
+  "license": "MIT",
   "devDependencies": {
     "tailwindcss": "^3.4.3"
   }
