@@ -2871,6 +2871,40 @@ body {
   }
 }
 
+.scrollTop {
+  background-image: linear-gradient(to bottom, #4f46e5, #3f3c9e);
+  border: none;
+  border-radius: 50%;
+  color: white;
+  cursor: pointer;
+  width: 65px;
+  height: 65px;
+  position: fixed;
+  bottom: 20px;
+  right: 40px;
+  z-index: 10;
+  opacity: 0;
+  transform: translateY(100px);
+  transition: all 0.5s ease;
+  font-size: 30px;
+}
+
+.scrollTop.showBtn {
+  opacity: 1;
+  transform: translate(0);
+}
+
+@media (max-width: 550px) {
+  .scrollTop {
+    width: 45px;
+    height: 45px;
+    bottom: 80px;
+    right: 20px;
+    z-index: 10;
+    font-size: 15px;
+  }
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
