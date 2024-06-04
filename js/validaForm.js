@@ -9,7 +9,6 @@ export default function validaForm() {
         } else {
             target.classList.remove("invalido")
             target.nextElementSibling.innerText = "";
-            
         }
     }
     form.addEventListener('change', handleChange)
